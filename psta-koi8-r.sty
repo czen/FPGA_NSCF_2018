@@ -1,0 +1,234 @@
+% The submition for psta document class default
+% cyrillic option [koi8-r]{psta}[2018/09/03 14:59:42        ]
+%
+\paperheight 210mm
+\paperwidth 148mm
+\hoffset -1in
+\voffset -1in
+\topmargin=12mm
+\headheight=8mm
+\headsep=4mm
+\evensidemargin=18.5mm
+\oddsidemargin=18.5mm
+\footskip=0pt
+\textheight = 167 mm %=171-12-15-8-4, from OST 29.124-94 margins 10..24-12-15-11 +2mm trim
+\textwidth  = 111 mm %=148.5-13-24
+\def\russian@alph#1{\ifcase#1\or 
+     �\or �\or �\or �\or �\or �\or �\or
+     �\or �\or �\or �\or �\or �\or �\or
+     �\or �\or �\or �\or �\or �\or �\or
+     �\or �\or �\or �\or �\or �\or �\else\@ctrerr\fi}
+%
+\@ifundefined{journalabbreviationinenglish}{%
+    \def\journalabbreviationinenglish{PSTA}\RequirePackage{cmap}}{}%
+\gdef\JournalURL{http://psta.psiras.ru/}\gdef \IssueURL#1{\JournalURL}%
+\def\ISSN{2079-3316}\def\Journalnumber{ISSN \ISSN}%
+\def\TopHead{\colonTitlefont\PSTAsubmit\hss\firstheadline\hss \colonTitlefont\ISSN}%
+\orgdef firstheadline\\ psta.psiras.ru/index_en.htm\\  PROGRAM SYSTEMS: THEORY AND APPLICATIONS\\
+                    psta.psiras.ru\\ ����������� �������: ������ � ����������\\
+
+\orgdef JournalLink\\ psta.psiras.ru/index_en.htm\\ Program Systems: Theory and Applications\\
+                    psta.psiras.ru\\ ����������� �������: ������ � ����������\\
+\EnglishRussianCaption\placename{Pereslavl-Zalesskiy}{����������-���������}%
+%
+\EnglishRussianCaption\AnonimousReview{ for anonimous review by }{ ������ ��������������� ����������� }
+\EnglishRussianCaption\BBCname{BBC}{���}%
+\EnglishRussianCaption\Etcname{etc.}{� ��.}%
+\EnglishRussianCaption\Licensed{Licensed to the public under}{��������� ��������}
+\EnglishRussianCaption\PSTAAssigned{Assigned}{���}
+\EnglishRussianCaption\PSTASubmitted{Submitted to}{���������� � ������} 
+\EnglishRussianCaption\PSTAat{at }{ }
+\EnglishRussianCaption\PSTAblind{hidden}{������}
+\EnglishRussianCaption\PSTAfor{for the journal }{� ������ }
+\EnglishRussianCaption\PSTAjouA{From authors}{�� �������}
+\EnglishRussianCaption\PSTAjouQ{From editor}{�� ��������}
+\EnglishRussianCaption\PSTApreliminary{(��������������� ������)}{(preliminary version)} 
+\EnglishRussianCaption\PSTAprepared{Prepared }{������������ }
+\EnglishRussianCaption\PSTAsubmitting{(submitting)}{(������������ � ������)} 
+\EnglishRussianCaption\PSTAsubmit{To the journal }{� ������ } 
+\EnglishRussianCaption\Postupila{Submitted on}{��������� � ��������}
+\EnglishRussianCaption\Predstavil{Submitted by}{������������ � ����������}
+\EnglishRussianCaption\RINC{RSCI}{����}%
+\EnglishRussianCaption\SSylkaa{Sample citation of this publication:}{������ ������ �� ��� ����������:}
+\EnglishRussianCaption\TwoWeeksFrom{Two weeks from}{��� ������ � }
+\EnglishRussianCaption\UDCname{UDC}{���}%
+\EnglishRussianCaption\bibEditiontext{Ed.}{���.}%
+\EnglishRussianCaption\bibIssuetext{No.}{?}%
+\EnglishRussianCaption\bibPagestext{Pp.}{�.}%
+\EnglishRussianCaption\bibPagetext{p.}{�.}%
+\EnglishRussianCaption\bibParttext{Part}{�.}%
+\EnglishRussianCaption\bibVoltext{Vol.}{�.}%
+\EnglishRussianCaption\bibbookVoltext{V.}{�.}%
+\EnglishRussianCaption\bibbookvoltext{v.}{�.}%
+\EnglishRussianCaption\bibeditiontext{ed.}{���.}%
+\EnglishRussianCaption\bibedstext{eds.}{���.}%
+\EnglishRussianCaption\bibedtext{ed.}{���.}%
+\EnglishRussianCaption\bibetcname{etc.}{� ��.}%
+\EnglishRussianCaption\bibissuetext{no.}{?}%
+\EnglishRussianCaption\bibpagestext{pp.}{�.}%
+\EnglishRussianCaption\bibpagetext{p.}{�.}%
+\EnglishRussianCaption\bibparttext{part}{�.}%
+\EnglishRussianCaption\bibserissuetext{}{?}%
+\EnglishRussianCaption\bibt@appear{to appear}{�~������}%
+\EnglishRussianCaption\bibvoltext{vol.}{�.}%
+\EnglishRussianCaption\bibwithtext{with }{����.\ �~}%
+\EnglishRussianCaption\design{design}{������}
+\EnglishRussianCaption\glossaryname{Glossary}{���������� ���������}%
+\EnglishRussianCaption\inenglishname{}{����.}%
+\EnglishRussianCaption\inrussianname{In Russian}{}%
+\EnglishRussianCaption\keywordsname{Key words and phrases}{�������� ����� � �����}%
+\EnglishRussianCaption\manyauthors{About the authors}{�� �������}
+\EnglishRussianCaption\oneauthor{About the author}{�� ������}
+\EnglishRussianCaption\otherPages{The same article in Russian}{��� �� ������ ��-���������}
+\EnglishRussianCaption\pagesText{pp.}{�.}%
+\EnglishRussianCaption\pagestext{pp.}{�.}%
+\EnglishRussianCaption\pagetext{p.}{�.}%
+\EnglishRussianCaption\proofname{Proof}{��������������}%
+\EnglishRussianCaption\startquote{``}{<<}%
+\EnglishRussianCaption\stopquote{''}{>>}%
+\EnglishRussianCaption\thereferences{References}{������ ����������}%\def\No{?} Use ? from keyboard, please!
+\orgdef BELSU\\ www.bsu.edu.ru/en/\\ Belgorod National Research University\\
+                www.bsu.edu.ru/bsu/\\ ������������ ��������������� ������������ ����������������� �����������\\
+\orgdef BMSTU\\ www.bmstu.ru/en\\ Bauman Moscow State Technical University\\
+                www.bmstu.ru/\\  ���� ����� �.�. �������\\
+\orgdef BIONET\\ www.bionet.nsc.ru/en\\ Institute of Cytology and Genetics SB RAS\\
+                www.bionet.nsc.ru/\\ �������� ��������� � �������� �� ���\\
+\orgdef CLIRE\\ http://cplire.ru/html/index.html\\ Kotelnikov Institute of Radioengineering and Electronics of RAS\\
+                http://cplire.ru/rus/index.html\\ �������� ������������ � ����������� ��. �.�.������������ ���\\
+\orgdef BSU\\   en.bsu.ru/\\ Buryat State University\\
+                www.bsu.ru/\\ ��������� ��������������� �����������\\
+\orgdef ECNU\\  english.ecnu.edu.cn/\\ East China Normal University\\
+                english.ecnu.edu.cn/\\ ��������-��������� �������������� �����������\\
+\orgdef EZAN\\  www.ezan.ac.ru//en//\\ Experimental Factory of Scientific Engineering And Special Design Department of RAS\\
+                www.ezan.ac.ru//ru/\\ ����������������� ����� �������� ��������������� ���\\
+\orgdef GCTC\\  www.gctc.su/\\ Gagarin Research\&Test Cosmonaut Training Center\\
+                www.gctc.ru/\\ ��� ��� ����� �.~�.~��������\\
+\orgdef IACP\\  www.iacp.dvo.ru/?lang=en\\ Institute of Automation and Control Processes of the Far Eastern Branch of the RAS\\
+                www.iacp.dvo.ru/\\ �������� ���������� � ��������� ���������� ��� ���\\
+\orgdef IBRAE\\ en.ibrae.ac.ru/\\ Nuclear Safety Institute of RAS\\
+                www.ibrae.ac.ru/\\ �������� ������� ����������� �������� ������� ���������� ���\\
+\orgdef IDM\\   idm.ru/\\ IDM Ltd\\
+                idm.ru/\\ ��� <<���>>, �. ����������\\
+\orgdef IDSTU\\ www.idstu.irk.ru/en/\\ Institute for System Dynamics and Control Theory of SB RAS\\
+                www.idstu.irk.ru/\\ �������� �������� ������ � ������ ���������� �� ���\\
+\orgdef IFRSUTE\\ www.idstu.irk.ru/\\ Irkutsk Institute (branch) of PRUE \\
+                www.ifrsute.ru/\\ ��������� ������ ��� ��. �.�. ���������\\
+\orgdef IITP\\  www.iitp.ru/en\\ Institute for Information Transmission Problems of RAS\\
+                www.iitp.ru/\\ �������� ������� �������� ���������� ��.~�.~�.~���������\\
+\orgdef ICMM\\  www.icmm.ru/en\\ Institute of Continuous Media Mechanics of UB RAS\\
+                www.icmm.ru\\ �������� �������� �������� ���� ��� ���\\
+\orgdef Informika\\ www.informika.ru/\\ SIIT\&T ``Informika''\\
+                    www.informika.ru/\\ ���� ��� <<���������>>\\ 
+\orgdef IPMI\\  http://mathem.krc.karelia.ru/index.php?&plang=e\\  Institute of Applied Mathematical Research\\
+                http://mathem.krc.karelia.ru/\\ �������� ���������� �������������� ������������  ����� ���\\
+\orgdef IPM\\   www.ipmnet.ru/en/\\ A. Ishlinsky Institute for Problems in Mechanics RAS\\
+                www.ipmnet.ru/\\ �������� ������� �������� ��. �.�. ���������� ���\\
+\orgdef IPPM\\  www.ippm.ru/index.php?ls=en\\ Institute for Design Problems in Microelectronics\\
+                www.ippm.ru\\ �������� ������� �������������� � ���������������� ���\\
+\orgdef IPU\\   www.ipu.ru/en\\ ICS V. A. Trapeznikov of RAS\\
+                www.ipu.ru/\\ �������� ������� ���������� ����� �.~�.~������������ ���\\
+\orgdef IR\\    www.orcid.org/\\ Independent Researcher\\
+                www.orcid.org/\\ ����������� �������������\\
+\orgdef ISA\\   www.isa.ru/en\\ Institute for Systems Analysis, FRC "Computer Science and Control" of RAS\\
+                www.isa.ru/\\ �������� ���������� ������� ��� "����������� � ����������" ���\\
+\orgdef ISTU\\  www.istu.edu/eng/\\ Irkutsk State Technical University\\
+                www.istu.edu/\\ ��������� ������������ ����������������� ����������� �����������\\
+\orgdef JIHT\\  jiht.ru/en/\\ Joint Institute for High Temperatures of RAS\\
+                www.jiht.ru/\\ ������������ �������� ������� ���������� ���\\
+\orgdef JSCC\\  www.jscc.ru/eng/index.shtml\\ Joint Supercomputer Center of RAS\\
+                www.jscc.ru/\\ ���������������� ����������������� ����� ���\\
+\orgdef HIT\\   www.hit.edu.cn/\\ Harbin Institute of Technology\\
+                en.hit.edu.cn/\\  ���������� ��������������� �����������\\
+\orgdef HSE\\   https://www.hse.ru/en\\ Higher School of Economics\\
+                https://www.hse.ru/\\ ������ ����� ���������\\
+\orgdef HZAVISI\\ http://hzavisi.company.weiku.com/\\ Hangzhou Avisi Electronics Co., Ltd.\\
+                  http://hzavisi.company.weiku.com/\\ ��� ����������� �������� ����������� ���������� <<AIVISI>>\\
+\orgdef KIAM\\  www.keldysh.ru/PSI/\\ Keldysh Institute of Applied Mathematics of RAS\\
+                www.keldysh.ru/PSI/\\ �������� ���������� ���������� ��. �.~�.~������� ���\\
+\orgdef KFPU\\  kpfu.ru/eng\\ Kazan Federal University\\
+                kpfu.ru/\\ ��������� ����������� �����������\\
+\orgdef KRC\\   mathem.krc.karelia.ru/?plang=e\\ Institute of Applied Mathematical Research KarRC of RAS\\
+                mathem.krc.karelia.ru/\\ �������� ���������� �������������� ������������ ����� ���\\
+\orgdef LIT\\   zavodlit.ru/\\ Zavod LIT, department of innovation\\
+                zavodlit.ru/\\ ��� <<����� ���>>, ����� ���������\\
+\orgdef LSIS\\  www.lsis.org/\\ Laboratoire des Sciences de l'Information et des Systemes, UMR, CNRS, France\\
+                www.lsis.org/\\ ����������� ����������� � ������ ������, UMR, CNRS, �������\\
+\orgdef MADI\\  www.madi.ru/\\ Moscow State Automobile \&\ Road Technical University\\
+                www.madi.ru/\\ ���������� ������������-�������� ��������������� ����������� ��  ���������\\
+\orgdef MAI\\   en.mai.ru\\ Moscow Aviation Institute\\
+                www.mai.ru/\\ ���������� ����������� ��������\\
+\orgdef MAMI\\  mami.ru\\ Moscow  State  Technical  University ``MAMI''\\
+                mami.ru\\ ���������� ��������������� ������������������ ����������� (����)\\
+\orgdef MPU \\  mami.ru\\ Moscow Polytechnic University\\
+                mami.ru\\ ���������� ��������������� �����������\\
+\orgdef MIPT\\  mipt.ru//\\ Moscow Institute of Physics and Technology\\
+                mipt.ru/\\ ���������� ������-����������� ��������\\
+\orgdef MMSC\\  www.mmcs.sfedu.ru/\\ Scientific Reseach Institute of Mechanics and Applied Mathematics, Southern Federal University\\
+                www.mmcs.sfedu.ru/\\ �������� ����������, �������� � ������������ ���� ���\\
+\orgdef MPEI\\  www.mpei.ru/lang/en/Pages/default.aspx\\ National Research University "Moscow Power Engineering Institute"\\
+                www.mpei.ru/\\ ������������ ����������������� ����������� <<���������� �������������� ��������>>\\
+\orgdef MSU\\   www.msu.ru/en/\\ Lomonosov Moscow State University\\
+                www.msu.ru\\ ���������� ��������������� ����������� ����� �. �. ����������\\
+\orgdef MVS\\   mvs.sfedu.ru/\\ Scientific-Research Institute Multiprocessing Computing Systems after Kalyaev of SFU\\
+                mvs.sfedu.ru/\\  ��� �������������� ����������������� ������ ��. �.�.������� ���\\
+\orgdef NIISI\\ www.niisi.ru\\ Scientific Research Institute of System Development of RAS\\
+                www.niisi.ru\\ ������-����������������� �������� ��������� ������������ ���\\
+\orgdef NIISEVM\\ www.super-computer.ru/\\ NII Super-Computer\\
+                www.super-computer.ru/\\ ��� <<��� ����� ���>>\\
+\orgdef NIIVK\\ www.niivk.ru/\\ NIIVK im. M.~A.~Kartseva\\
+                www.niivk.ru/\\ ��� <<����� ��.~�.~�.~�������>>\\
+\orgdef NSCF\\  nscf.ru/\\ National Supercomputer Forum\\
+                nscf.ru/\\ ������������ ����������������� �����\\
+\orgdef NSCFup\\ nscf.ru/\\ NATIONAL SUPERCOMPUTER FORUM\\
+                nscf.ru/\\ ������������ ����������������� �����\\
+\orgdef NSTU\\  en.nstu.ru/\\  Novosibirsk State Technical University\\
+                www.nstu.ru/\\ ������������� ��������������� ����������� �����������\\
+\orgdef NSU\\   www.nsu.ru/exp/index.jz?lang=en\\  Novosibirsk State University\\
+                www.nsu.ru/\\ ������������� ��������������� �����������\\
+\orgdef PSI\\   www.botik.ru/PSI/\\ Ailamazyan Program Systems Institute of RAS\\
+                www.botik.ru/PSI/\\ �������� ����������� ������ ����� �.~�.~���������� ���\\
+\orgdef PNZGU\\ international.pnzgu.ru/\\ Penza State University\\
+                www.pnzgu.ru/\\ ���������� ��������������� �����������\\
+\orgdef PVTU\\  en.volgatech.net/\\ Volga State University of Technology\\
+                www.volgatech.net/\\ ���������� ��������������� ��������������� �����������\\
+\orgdef PZGS\\ xn----7sbbiboanhc0bcdo8ars6rub.xn--p1ai/\\ Pereslavl-Zalesskiy Grammar School\\
+               xn----7sbbiboanhc0bcdo8ars6rub.xn--p1ai/\\ ��� -- �������� �. ����������-����������\\
+\orgdef RGSU\\  en.rgsu.net//\\ Russian State Social University\\
+                www.rgsu.net/\\ ���������� ��������������� ���������� �����������\\
+\orgdef RUDN\\  eng.rudn.ru\\ RUDN University\\
+                www.rudn.ru\\ ���������� ����������� ������ �������\\
+\orgdef SCIRUS\\ sci-rus.ru\\ SCIRUS Co. Ltd.\\
+                sci-rus.ru\\ ��� <<������>>\\
+\orgdef SIT\\   edu.botik.ru\\ Science-intensive Information Techlnologies\\
+                edu.botik.ru\\  ����ϣ���� �������������� ����������\\
+\orgdef SPBU\\  http://english.spbu.ru/\\ St Petersburg University\\
+                http://spbu.ru/\\ �����-������������� ��������������� �����������\\
+\orgdef SPIIRAS\\ www.spiiras.nw.ru/index.php?newlang=english\\ St. Petersburg Institute for Informatics and Automation of RAS\\
+                www.spiiras.nw.ru\\ �����-������������� �������� ����������� � ������������� ���\\
+\orgdef SSCC\\  www.sscc.ru/index_e.html\\  Institute of Computational Mathematics and Mathematical Geophysics SB RAS\\
+                www.sscc.ru//\\ �������� �������������� ���������� � �������������� ��������� �� ���\\
+\orgdef STANKIN\\   http://www.stankin.ru/\\ Moscow State Technological University ''Stankin''\\
+                http://www.stankin.ru/\\ ���������� ��������������� ��������������� ����������� <<�������>>\\
+\orgdef SUPEREVM\\ superevm.ru/index.php?page=home-2\\ Supercomputers and Neurocomputers Research Center\\
+                superevm.ru//\\ ������-����������������� ����� �����-��� � ����������������\\
+\orgdef SUSU\\  en.susu.ac.ru/\\ South Ural State University\\
+                www.susu.ac.ru/\\ ����-��������� ��������������� �����������\\
+\orgdef TSTU\\  en.susu.ac.ru/\\ Tver State Technical University\\
+                www.tstu.tver.ru/\\ �������� ��������������� ����������� �����������\\
+\orgdef TUE\\   www.tue.nl/\\ Eindhoven University of Technology\\
+                www.tue.nl/\\ ����������� ����������� ����������\\
+\orgdef UDSU\\  udsu.ru/\\ Udmurt State University\\
+                udsu.ru//\\ ���������� ��������������� �����������\\
+\orgdef UGP\\   site.u.pereslavl.ru/\\ Ailamazyan Pereslavl University\\
+                site.u.pereslavl.ru/\\ ��� ����� �.~�.~����������\\
+\orgdef VNIIA\\ vniia.ru/eng/\\ All-Russia Research Institute of Automatics\\
+                vniia.ru/\\ ������������� ��� ���������� ��.~�.~�.~������\\
+\orgdef VSUA\\   www.vsu.am/index.php/en/\\ Vanadzor State University after Hovhannes Toumanyan\\
+                www.vsu.am/index.php/ru/\\ ������������ ��������������� ����������� ��. ��. ��������\\
+\orgdef VYATSU\\ www.vyatsu.ru\\ Vyatka State University\\
+                www.vyatsu.ru/\\ ������� ��������������� �����������\\
+\orgdef ZJU\\   www.zju.edu.cn/english/\\ Zhejiang University\\
+                www.zju.edu.cn/\\  ����������� ��������, �. �������, �����\\
+\endinput
+
+% vim:ts=4:expandtab:syn=tex:iskeyword=@,48-58,95,128-255,@-@:
