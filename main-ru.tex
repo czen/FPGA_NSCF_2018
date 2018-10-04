@@ -5,11 +5,11 @@
 \subjclass[2010]{68N20}
 
 % Заглавие работы
-\title[кратко]{Метод статической классификации участков программы для отображения на ПЛИС}
+\title[Статическая классификация программ для ПЛИС]{Метод статической классификации участков программы для отображения на ПЛИС}
 %\title[]{} % или с коротким вариантом для колонтитула
 
 % Фамилия, запятая, имя отчество автора
-\author{Баглий Антон Павлович}
+\author{Баглий, Антон Павлович}
 % Организация, в которой выполнена статья или её часть автором
 \address{Южный федеральный университет}
 % Электронный адрес автора
@@ -35,9 +35,9 @@
 
 \selectlanguage{english} 
 % All the same in English 
-\title[Short title]{The Full Engish Title}
+\title[Static program classification for FPGA]{Technique for static classification of program fragments to be mapped onto FPGA}
 % Last name, coma other names 
-\author{Bagly Anton Pavlovich}
+\author{Bagly, Anton Pavlovich}
 % Organisation, where the work done
 \address{Southern federal university}
 % author email
@@ -52,7 +52,7 @@
 % Repeat the same fore each of other authors
 %
 \begin{abstract}
-The abstract in English should come here.
+РАЗДЕЛ В РАЗРАБОТКЕ
 \end{abstract}
 \selectlanguage{russian} % Не забывайте отметить возврат на русский язык
 % Для локального переключения на другой язык используйте команду 
@@ -88,6 +88,8 @@ The abstract in English should come here.
 
 \section{Быстрая аппроксимация времени выполнения и возможности выполнения на ПЛИС} 
 
+\cite{Sherwood2002}
+
 за счет:
 
 \begin{itemize}
@@ -96,6 +98,11 @@ The abstract in English should come here.
    \item использования simpoints для хорошей оценки времени работы на эмулируемой архитектуре
    \item вероятность того, что проект не поместится на ПЛИС, можно оценить по результатам работы интерпретатора (сколько виртуальных вычислителей было задействовано, сколько можно еще задействовать)
 \end{itemize}
+
+\section{эмуляция абстрактной архитектуры}
+
+\cite{Takamaeda-Yamazaki2014}
+  
    
 
 %Проверяйте, пожалуйста (URL) в списке литературы \cite{PSTAmanual}!% ссылка на источник литературы
@@ -112,20 +119,8 @@ The abstract in English should come here.
 
 %%%%% Нумерация библиографии в порядке цитирования, инициалы перд фамилией. 
 % 
-\begin{thebibliography}{30}
-%
-%\bibitem{Voss2006} H.~Vo\ss. ``Math mode, 2006. Extensive summary describing various mathematical constructions, both with and without the amsmath package''.
-% {\scriptsize \textsf{URL:} }\url{http://mirror.ctan.org/info/math/voss/mathmode/Mathmode.pdf}
-%
-%% Допускается стандартный bibtex, рекомендуется форматирование AMSBIB:
-%
-\RBibitem{PSTAmanual} 
-\by С.В. Знаменский
-\preprint Руководство по стилю PSTA для авторов, подготавливающих статьи в \LaTeX
-\yr 2018 
-\totalpages 9
-\URL http://psta.psiras.ru/read/psta-man.pdf
+\bibliographystyle{amsalpha}
+\bibliography{bibliography.bib}
 
-\end{thebibliography}
 \end{document}
 
